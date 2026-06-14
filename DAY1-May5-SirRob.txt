@@ -133,9 +133,9 @@ vlan 10
 vlan 50
    name IPCCTVLAN
 vlan 69
-   name DELETEME
+   name ACCT
 vlan 70
-    name SELLME
+    name JIM
 vlan 71
     name HR
 vlan 100
@@ -172,10 +172,10 @@ config t
 ip routing
 ip dhcp pool CAMERA6
 host 10.51.50.6 255.255.255.0
-client-identifier 001a.0704.7f5b
+client-identifier 001a.070a.27ed
 ip dhcp pool CAMERA8
 host 10.51.50.8 255.255.255.0
-client-identifier 001a.0709.c258 
+client-identifier 001a.0709.c268 
 end
 show ip dhcp binding
 
@@ -185,7 +185,7 @@ CALLMANAGER EXPRESS CONFIGURATION FOR VOIP/TELEPHONY ENGINEERS
 !!cisco unified call manager Express command
 !@@@CUCM-M
 config t
-   hostname CUCM-51
+   hostname Router
    enable secret pass
    service password-encryption
    no logging console
