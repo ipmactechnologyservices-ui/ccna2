@@ -305,10 +305,10 @@ conf t
 
 !Dial-Peer Don't Touch yourself ( Line 307-380 Paste on CME )
 conf t
- dial-peer voice 11 Voip
-  destination-pattern 11..
-  session target ipv4:10.11.100.8
-  codec g711ULAW
+ !dial-peer voice 11 Voip
+  !destination-pattern 11..
+  !session target ipv4:10.11.100.8
+  !codec g711ULAW
  dial-peer voice 12 Voip
   destination-pattern 12..
   session target ipv4:10.12.100.8
