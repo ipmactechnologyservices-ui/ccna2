@@ -179,7 +179,7 @@ show ip dhcp binding
 !TASK2***TASK2***TASK2***
 !@@@CME ROUTE CONFIG (Call Manager Express) ( Line 181-199 Paste on CME)
 config t
-   hostname CME-12
+   hostname CME-11
    enable secret pass
    service password-encryption
    no logging console
@@ -194,7 +194,7 @@ config t
       exec-timeout 0 0
    Int Gi 0/0/0
      description CME
-     ip add 10.12.100.8 255.255.255.0
+     ip add 10.11.100.8 255.255.255.0
 	 no shutdown
  end
  
