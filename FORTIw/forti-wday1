@@ -86,7 +86,7 @@ CCNPSkillsNow: Etherchannel with LinkAggregationControlProtocol:
 WARNING: THREE CABLES IS BETTER THAN ONE!
 @taas/BABA: (Line 88- 94 Paste on COREtaas & COREbaba)
 config t
-Int Range fa0/10-12
+Int Range fa0/11
  channel-group 1 mode active
  channel-protocol Lacp
  do sh etherchannel summary
