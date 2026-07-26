@@ -383,8 +383,8 @@ conf t
 !@CME: (Call Manager Express) 
 config t
 router ospf 1
-router-id 10.12.100.8
-network 10.12.100.0  0.0.0.255  area 0
+router-id 10.11.100.8
+network 10.11.100.0  0.0.0.255  area 0
 end
 
 !OSPF on COREswitch ( Line 392-398 Paste on COREbaba )
