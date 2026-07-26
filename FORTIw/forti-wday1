@@ -413,7 +413,7 @@ end
 config system interface
  edit wan1
   set mode static
-  set ip 200.0.0.12 255.255.255.0 
+  set ip 200.0.0.11 255.255.255.0 
   set allowaccess ping https ssh telnet
   set role wan
   set alias "INTERNET"
@@ -421,7 +421,7 @@ config system interface
   next
  edit port1
   set mode static
-  set ip 10.12.12.1 255.255.255.0
+  set ip 10.11.11.1 255.255.255.0
   set allowaccess ping https ssh telnet http
   set role lan
   set alias "INTERNAL"
@@ -430,7 +430,7 @@ config system interface
 edit loopback1
   set vdom root
   set mode static
-  set ip 12.0.0.1 255.255.255.255
+  set ip 11.0.0.1 255.255.255.255
   set allowaccess ping
   set type loopback
   set status up
