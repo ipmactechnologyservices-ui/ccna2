@@ -274,7 +274,7 @@ voice register pool 1
  type 8851
 !
 voice register pool 2
- id mac dcf7.19d9.b574
+ id mac c4c6.03f1.e628
  number 1 dn 6
  number 2 dn 8
  number 3 dn 9
